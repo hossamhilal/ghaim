@@ -1,0 +1,250 @@
+/*=================================================================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+/*==========================||---------------------------||========================*/
+/*==========================|| DESIGNED BY  HOSSAM HILAL ||========================*/
+/*==========================||---------------------------||========================*/
+/*====================================||------||===================================*/
+/*====================================|| 2017 ||===================================*/
+/*====================================||------||===================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+
+
+
+body {
+    direction: rtl;
+    font: 22px 'ZahraArabic', sans-serif;
+}
+h1 {
+    font-size: 38px;
+}
+h2 {
+    font-size: 33px;
+}
+h3 {
+    font-size: 28px;
+}
+select {
+    background-position-x: 10px;
+}
+.gm-style-iw {
+    font: 22px 'ZahraArabic', sans-serif;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11 {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.col-xs-offset-1 {
+    margin-left: 0;
+    margin-right: 8.33333333%;
+}
+.btn {
+    font-size: 21px;
+    padding: 4px 20px 7px;
+}
+.btn-big {
+    font-size: 30px;
+}
+.btn-small {
+    padding: 2px 10px 5px;
+}
+.btn-small .fa {
+    font-size: 22px;
+}
+.right-fa {
+    margin-left: 5px;
+}
+.left-fa {
+    margin-right: 5px;
+}
+.navbar-toggle {
+    float: right;
+}
+.rate {
+    float: left;
+    font-size: 16px;
+}
+.table-view span {
+    font-size: 22px;
+}
+.map-img {
+    margin-left: 10px;
+}
+.input-with-icon .fa {
+    right: 8px;
+}
+.input-with-icon input {
+    padding-right: 35px;
+}
+h1 .fa-stack {
+    margin-left: 15px;
+}
+.checkbox-holder .checkbox-icon, .radio-holder .radio-icon {
+    margin-left: 5px;
+}
+.header-with-border > p {
+    padding-right: 20px;
+}
+.header-with-border .header {
+    float: right;
+}
+.header-with-border .tools {
+    float: left;
+}
+.open-close span {
+    font-size: 20px;
+    padding: 0 0 4px;
+}
+.close, button.close {
+    padding: 2px 10px;
+}
+.open-close .checkbox-icon {
+    left: 3px;
+}
+.open-close input:checked + .checkbox-icon {
+    left: 50px;
+}
+.tel {
+    direction: ltr;
+    text-align: right;
+}
+.tel .fa {
+    float: right;
+}
+.input-group-btn {
+    left: 1px;
+}
+.btn-file {
+    border-radius: 6px 0 0 6px !important;
+}
+.btn-file input[type='file'] {
+    right: 0;
+    text-align: right;
+}
+.search-btn {
+    right: 15px;
+}
+.search-div {
+    padding-left: 5px;
+}
+.bordered-box.small-border .table-cell:first-child {
+    padding-left: 10px;
+}
+.close-div-btn {
+    left: 15px;
+}
+.subscribe {
+    padding-right: 15px;
+}
+.bootstrap-select.btn-group .dropdown-menu li a.opt {
+    padding-right: 2.25em;
+}
+.dropdown-menu, .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    text-align: right;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    left: 12px;
+    right: auto;
+}
+.modal .close {
+    float: left !important;
+}
+.notification-box {
+    left: -270px;
+}
+.notification-box.notification-opened {
+    left: 0;
+}
+.open-notification {
+    margin-left: -3px;
+}
+.open-notification .badge {
+    right: -7px;
+    font-size: 18px;
+    line-height: 13px;
+}
+.mCS-dir-rtl > .mCSB_inside > .mCSB_container {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.notification-box.share-location .open-notification {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform-origin: top right;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -ms-transform-origin: top right;
+    -o-transform-origin: top right;
+    right: 0;
+}
+.dropdown-menu {
+    right: 0;
+    left: auto;
+    font-size: 20px;
+}
+thead tr th {
+    text-align: right;
+}
+.btn-margin {
+    margin-top: 33px !important;
+}
+.new-header .submit-btn {
+    left: 0;
+}
+@media (min-width: 768px) {
+
+    .fadeInLeft {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+    }
+    .fadeInRight {
+        -webkit-animation-name: fadeInRight;
+        animation-name: fadeInRight;
+    }
+    .margin-right {
+        margin-right: 20px;
+    }
+    .text-align-right {
+        text-align: right;
+    }
+    .text-align-left {
+        text-align: left;
+    }
+    .nav > li > a {
+        padding: 5px 0 10px;
+    }
+    .navbar-nav > li {
+        float: right;
+    }
+    .nav > li.lang {
+        float: left;
+    }
+    .search-btn {
+        right: -35px;
+    }
+    .new-header .btn.border, .new-header input {
+        border-right: 0;
+    }
+    .new-header .border-left {
+        border-left: 1px solid #eaeaea;
+    }
+    .new-header .submit-btn {
+        left: 10px;
+    }
+}

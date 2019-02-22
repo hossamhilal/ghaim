@@ -1,0 +1,212 @@
+/*=================================================================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+/*==========================||---------------------------||========================*/
+/*==========================|| DESIGNED BY  HOSSAM HILAL ||========================*/
+/*==========================||---------------------------||========================*/
+/*====================================||------||===================================*/
+/*====================================|| 2017 ||===================================*/
+/*====================================||------||===================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+
+body {
+    font: 16px 'OpenSans', sans-serif;
+    font-weight: 600;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+}
+select {
+    background-position-x: calc(100% - 10px);
+}
+.pull-left {
+    float: right !important;
+}
+.pull-right {
+    float: left !important;
+}
+.text-left {
+    text-align: right !important;
+}
+.text-right {
+    text-align: left !important;
+}
+.gm-style-iw {
+    font: 16px 'OpenSans', sans-serif;
+}
+.btn {
+    padding: 7px 20px;
+}
+.btn-big {
+    font-size: 25px;
+}
+.btn-small {
+    padding: 4px 10px;
+}
+.btn-small .fa {
+    font-size: 12px;
+}
+.right-fa {
+    margin-right: 5px;
+}
+.left-fa {
+    margin-left: 5px;
+}
+.navbar-toggle {
+    float: left;
+}
+.rate {
+    float: right;
+    font-size: 14px;
+}
+.map-img {
+    margin-right: 10px;
+}
+.input-with-icon .fa {
+    left: 8px;
+}
+.input-with-icon input {
+    padding-left: 35px;
+}
+h1 .fa-stack {
+    margin-right: 15px;
+}
+.checkbox-holder .checkbox-icon, .radio-holder .radio-icon {
+    margin-right: 5px;
+}
+.header-with-border > p {
+    padding-left: 20px;
+}
+.header-with-border .header {
+    float: left;
+}
+.header-with-border .tools {
+    float: right;
+}
+.open-close span {
+    font-size: 14px;
+    padding: 4px 0;
+}
+.open-close .checkbox-icon {
+    right: 3px;
+}
+.open-close input:checked + .checkbox-icon {
+    right: 52px;
+}
+.close, button.close {
+    padding: 7px 10px 0;
+}
+.input-group-btn {
+    right: 1px;
+}
+.btn-file {
+    border-radius: 0 6px 6px 0 !important;
+}
+.btn-file input[type='file'] {
+    left: 0;
+    text-align: left;
+}
+.search-btn {
+    left: 15px;
+}
+.search-div {
+    padding-right: 5px;
+}
+.owl-btn .fa {
+    font-size: 21px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.bordered-box.small-border .table-cell:first-child {
+    padding-right: 10px;
+}
+.close-div-btn {
+    right: 15px;
+}
+.subscribe {
+    padding-left: 15px;
+}
+.notification-box {
+    right: -270px;
+}
+.notification-box.notification-opened {
+    right: 0;
+}
+.open-notification {
+    margin-right: -3px;
+}
+.open-notification .badge {
+    left: -7px;
+    font-size: 12px;
+}
+.mCS-dir-rtl > .mCSB_inside > .mCSB_container {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.notification-box.share-location .open-notification {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+    left: 0;
+}
+.new-header .submit-btn {
+    right: 0;
+}
+@media (min-width: 768px) {
+
+    .fadeInLeft {
+        -webkit-animation-name: fadeInRight;
+        animation-name: fadeInRight;
+    }
+    .fadeInRight {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+    }
+    .margin-right {
+        margin-right: 20px;
+    }
+    .text-align-right {
+        text-align: left;
+    }
+    .text-align-left {
+        text-align: right;
+    }
+    .nav > li > a {
+        padding: 10px 0;
+    }
+    .navbar-nav > li {
+        float: left;
+    }
+    .nav > li.lang {
+        float: right;
+    }
+    .search-btn {
+        left: -35px;
+    }
+    .new-header .btn.border, .new-header input {
+        border-left: 0;
+    }
+    .new-header .border-left {
+        border-right: 1px solid #eaeaea;
+    }
+    .new-header .submit-btn {
+        right: 10px;
+    }
+}
